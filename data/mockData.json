@@ -1,0 +1,148 @@
+{
+    "matches": [
+        {
+            "id": 1,
+            "status": "SCHEDULED",
+            "minute": 0,
+            "homeTeam": {
+                "name": "Brazil",
+                "shortName": "BRA"
+            },
+            "awayTeam": {
+                "name": "Argentina",
+                "shortName": "ARG"
+            },
+            "score": {
+                "home": 0,
+                "away": 0
+            },
+            "stadium": "MetLife Stadium",
+            "city": "New York, USA",
+            "date": "2026-06-15T18:00:00"
+        },
+        {
+            "id": 2,
+            "status": "IN_PLAY",
+            "minute": 67,
+            "homeTeam": {
+                "name": "France",
+                "shortName": "FRA"
+            },
+            "awayTeam": {
+                "name": "England",
+                "shortName": "ENG"
+            },
+            "score": {
+                "home": 2,
+                "away": 1
+            },
+            "stadium": "SoFi Stadium",
+            "city": "Los Angeles, USA",
+            "date": "2026-06-15T15:00:00"
+        },
+        {
+            "id": 3,
+            "status": "HALF_TIME",
+            "minute": 45,
+            "homeTeam": {
+                "name": "Spain",
+                "shortName": "ESP"
+            },
+            "awayTeam": {
+                "name": "Germany",
+                "shortName": "GER"
+            },
+            "score": {
+                "home": 1,
+                "away": 1
+            },
+            "stadium": "Azteca Stadium",
+            "city": "Mexico City, Mexico",
+            "date": "2026-06-15T12:00:00"
+        },
+        {
+            "id": 4,
+            "status": "OVERTIME",
+            "minute": 104,
+            "homeTeam": {
+                "name": "Portugal",
+                "shortName": "POR"
+            },
+            "awayTeam": {
+                "name": "Netherlands",
+                "shortName": "NED"
+            },
+            "score": {
+                "home": 2,
+                "away": 2
+            },
+            "stadium": "AT&T Stadium",
+            "city": "Dallas, USA",
+            "date": "2026-06-15T09:00:00"
+        },
+        {
+            "id": 5,
+            "status": "PENALTIES",
+            "minute": 120,
+            "homeTeam": {
+                "name": "Croatia",
+                "shortName": "CRO"
+            },
+            "awayTeam": {
+                "name": "Morocco",
+                "shortName": "MAR"
+            },
+            "score": {
+                "home": 1,
+                "away": 1
+            },
+            "penalties": {
+                "home": 3,
+                "away": 2
+            },
+            "stadium": "BC Place",
+            "city": "Vancouver, Canada",
+            "date": "2026-06-14T20:00:00"
+        },
+        {
+            "id": 6,
+            "status": "FINISHED",
+            "minute": 90,
+            "homeTeam": {
+                "name": "USA",
+                "shortName": "USA"
+            },
+            "awayTeam": {
+                "name": "Mexico",
+                "shortName": "MEX"
+            },
+            "score": {
+                "home": 3,
+                "away": 2
+            },
+            "stadium": "Rose Bowl",
+            "city": "Los Angeles, USA",
+            "date": "2026-06-14T18:00:00"
+        },
+        {
+            "id": 7,
+            "status": "POSTPONED",
+            "minute": 0,
+            "homeTeam": {
+                "name": "Japan",
+                "shortName": "JPN"
+            },
+            "awayTeam": {
+                "name": "South Korea",
+                "shortName": "KOR"
+            },
+            "score": {
+                "home": 0,
+                "away": 0
+            },
+            "stadium": "Arrowhead Stadium",
+            "city": "Kansas City, USA",
+            "date": "2026-06-14T15:00:00"
+        }
+    ]
+}
