@@ -4,10 +4,11 @@
   <img src="FIFA.png" alt="FIFA 2026 Banner" width="16%">
 </p>
 
-# FIFA 2026 Live Match Tracker API
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+# FIFA 2026 Live Match Tracker API
 
 As a soccer fan and software developer, I built this API to explore RESTful API development and third-party API integration. The project provides live FIFA 2026 match scores, team details, and stadium information using Node.js, Express, and [], while demonstrating backend development, routing, environment management, and API deployment. 
 
