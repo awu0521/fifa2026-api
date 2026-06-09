@@ -9,7 +9,7 @@ const stadiums = [
     { id: 5, name: "NRG Stadium", city: "Houston", country: "USA", capacity: 72220 },
     { id: 6, name: "Arrowhead Stadium", city: "Kansas City", country: "USA", capacity: 76416 },
     { id: 7, name: "Levi's Stadium", city: "San Francisco", country: "USA", capacity: 68500 },
-    { id: 8, name: "Empower Field", city: "Denver", country: "USA", capaicty: 76125 },
+    { id: 8, name: "Empower Field", city: "Denver", country: "USA", capacity: 76125 },
     { id: 9, name: "Hard Rock Stadium", city: "Miami", country: "USA", capacity: 65326 },
     { id: 10, name: "Lincoln Financial Field", city: "Philadelphia", country: "USA", capacity: 69796 },
     { id: 11, name: "Gillette Stadium", city: "Boston", country: "USA", capacity: 65878 },
