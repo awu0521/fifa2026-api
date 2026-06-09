@@ -8,6 +8,12 @@ app.use(express.json())
 const matchesRouter = require('./routes/matches')
 app.use('/matches', matchesRouter)
 
+const stadiumsRouter = require('./routes/stadiums')
+app.use('/stadiums', stadiumsRouter)
+
+const teamsRouter = require('./routes/teams')
+app.use('/teams', teamsRouter)
+
 // base route
 app.get('/', (req, res) => {
     res.json({ message: 'FIFA 2026 API is running' })
