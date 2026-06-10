@@ -1,6 +1,6 @@
 //fetches and processes stadium data
 
-const stadiums = [
+/* const stadiums = [
     // USA
     { id: 1, name: "MetLife Stadium", city: "New York", country: "USA", capacity: 82500 },
     { id: 2, name: "SoFi Stadium", city: "Los Angeles", country: "USA", capacity: 70240 },
@@ -20,12 +20,14 @@ const stadiums = [
     { id: 14, name: "Azteca Stadium", city: "Mexico City", country: "Mexico", capacity: 87523 },
     { id: 15, name: "Estadio Akron", city: "Guadalajara", country: "Mexico", capacity: 49850 },
     { id: 16, name: "Estadio BBVA", city: "Monterrey", country: "Mexico", capacity: 53500 }
-]
+]*/
+
+const mockData = require('../data/mockData.json')
 
 // get all stadiums
 const getAllStadiums = (req, res) => {
     try {
-        res.json(stadiums)
+        res.json(mockData.stadiums)
     } catch (error) {
         res.status(500).json({ message: 'Could not get all stadiums', error: error.message })
     }
@@ -34,7 +36,7 @@ const getAllStadiums = (req, res) => {
 // get stadium by id
 const getStadiumById = (req, res) => {
     try {
-        const stadium = stadiums.find(s => s.id === parseInt(req.params.id))
+        const stadium = mockData.stadiums.find(s => s.id === parseInt(req.params.id))
         if (!stadium) {
             return res.status(404).json({ message: 'Stadium is not in the world cup!' })
         }
@@ -47,7 +49,7 @@ const getStadiumById = (req, res) => {
 // get stadiums by country
 const getStadiumsByCountry = (req, res) => {
     try {
-        const filtered = stadiums.filter(s => s.country.toLowerCase() === req.params.country.toLowerCase())
+        const filtered = mockData.stadiums.filter(s => s.country.toLowerCase() === req.params.country.toLowerCase())
         if (filtered.length === 0) {
             return res.status(404).json({ message: 'That country is not a fifa 2026 host!' })
         }

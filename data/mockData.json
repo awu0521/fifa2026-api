@@ -5,12 +5,12 @@
             "status": "SCHEDULED",
             "minute": 0,
             "homeTeam": {
-                "name": "Brazil",
-                "shortName": "BRA"
+                "name": "Mexico",
+                "shortName": "MEX"
             },
             "awayTeam": {
-                "name": "Argentina",
-                "shortName": "ARG"
+                "name": "South Africa",
+                "shortName": "RSA"
             },
             "score": {
                 "home": 0,
@@ -29,8 +29,8 @@
                 "shortName": "FRA"
             },
             "awayTeam": {
-                "name": "England",
-                "shortName": "ENG"
+                "name": "Senegal",
+                "shortName": "SEN"
             },
             "score": {
                 "home": 2,
@@ -49,8 +49,8 @@
                 "shortName": "ESP"
             },
             "awayTeam": {
-                "name": "Germany",
-                "shortName": "GER"
+                "name": "Cape Verde",
+                "shortName": "CPV"
             },
             "score": {
                 "home": 1,
@@ -69,8 +69,8 @@
                 "shortName": "POR"
             },
             "awayTeam": {
-                "name": "Netherlands",
-                "shortName": "NED"
+                "name": "Colombia",
+                "shortName": "COL"
             },
             "score": {
                 "home": 2,
@@ -89,8 +89,8 @@
                 "shortName": "CRO"
             },
             "awayTeam": {
-                "name": "Morocco",
-                "shortName": "MAR"
+                "name": "Ghana",
+                "shortName": "GHA"
             },
             "score": {
                 "home": 1,
@@ -109,12 +109,12 @@
             "status": "FINISHED",
             "minute": 90,
             "homeTeam": {
-                "name": "USA",
+                "name": "United States",
                 "shortName": "USA"
             },
             "awayTeam": {
-                "name": "Mexico",
-                "shortName": "MEX"
+                "name": "Panama",
+                "shortName": "PAN"
             },
             "score": {
                 "home": 3,
@@ -133,8 +133,8 @@
                 "shortName": "JPN"
             },
             "awayTeam": {
-                "name": "South Korea",
-                "shortName": "KOR"
+                "name": "Sweden",
+                "shortName": "SWE"
             },
             "score": {
                 "home": 0,
@@ -143,6 +143,410 @@
             "stadium": "Arrowhead Stadium",
             "city": "Kansas City, USA",
             "date": "2026-06-14T15:00:00"
+        }
+    ],
+    "stadiums": [
+        {
+            "id": 1,
+            "name": "MetLife Stadium",
+            "city": "New York",
+            "country": "USA",
+            "capacity": 82500
+        },
+        {
+            "id": 2,
+            "name": "SoFi Stadium",
+            "city": "Los Angeles",
+            "country": "USA",
+            "capacity": 70240
+        },
+        {
+            "id": 3,
+            "name": "Rose Bowl",
+            "city": "Los Angeles",
+            "country": "USA",
+            "capacity": 88565
+        },
+        {
+            "id": 4,
+            "name": "AT&T Stadium",
+            "city": "Dallas",
+            "country": "USA",
+            "capacity": 80000
+        },
+        {
+            "id": 5,
+            "name": "NRG Stadium",
+            "city": "Houston",
+            "country": "USA",
+            "capacity": 72220
+        },
+        {
+            "id": 6,
+            "name": "Arrowhead Stadium",
+            "city": "Kansas City",
+            "country": "USA",
+            "capacity": 76416
+        },
+        {
+            "id": 7,
+            "name": "Levi's Stadium",
+            "city": "San Francisco",
+            "country": "USA",
+            "capacity": 68500
+        },
+        {
+            "id": 8,
+            "name": "Empower Field",
+            "city": "Denver",
+            "country": "USA",
+            "capacity": 76125
+        },
+        {
+            "id": 9,
+            "name": "Hard Rock Stadium",
+            "city": "Miami",
+            "country": "USA",
+            "capacity": 65326
+        },
+        {
+            "id": 10,
+            "name": "Lincoln Financial Field",
+            "city": "Philadelphia",
+            "country": "USA",
+            "capacity": 69796
+        },
+        {
+            "id": 11,
+            "name": "Gillette Stadium",
+            "city": "Boston",
+            "country": "USA",
+            "capacity": 65878
+        },
+        {
+            "id": 12,
+            "name": "BC Place",
+            "city": "Vancouver",
+            "country": "Canada",
+            "capacity": 54500
+        },
+        {
+            "id": 13,
+            "name": "BMO Field",
+            "city": "Toronto",
+            "country": "Canada",
+            "capacity": 45736
+        },
+        {
+            "id": 14,
+            "name": "Azteca Stadium",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "capacity": 87523
+        },
+        {
+            "id": 15,
+            "name": "Estadio Akron",
+            "city": "Guadalajara",
+            "country": "Mexico",
+            "capacity": 49850
+        },
+        {
+            "id": 16,
+            "name": "Estadio BBVA",
+            "city": "Monterrey",
+            "country": "Mexico",
+            "capacity": 53500
+        }
+    ],
+    "teams": [
+        {
+            "id": 1,
+            "name": "Mexico",
+            "shortName": "MEX",
+            "group": "A"
+        },
+        {
+            "id": 2,
+            "name": "South Africa",
+            "shortName": "RSA",
+            "group": "A"
+        },
+        {
+            "id": 3,
+            "name": "South Korea",
+            "shortName": "KOR",
+            "group": "A"
+        },
+        {
+            "id": 4,
+            "name": "Czechia",
+            "shortName": "CZE",
+            "group": "A"
+        },
+        {
+            "id": 5,
+            "name": "Canada",
+            "shortName": "CAN",
+            "group": "B"
+        },
+        {
+            "id": 6,
+            "name": "Bosnia and Herzegovina",
+            "shortName": "BIH",
+            "group": "B"
+        },
+        {
+            "id": 7,
+            "name": "Qatar",
+            "shortName": "QAT",
+            "group": "B"
+        },
+        {
+            "id": 8,
+            "name": "Switzerland",
+            "shortName": "SUI",
+            "group": "B"
+        },
+        {
+            "id": 9,
+            "name": "Brazil",
+            "shortName": "BRA",
+            "group": "C"
+        },
+        {
+            "id": 10,
+            "name": "Morocco",
+            "shortName": "MAR",
+            "group": "C"
+        },
+        {
+            "id": 11,
+            "name": "Haiti",
+            "shortName": "HAI",
+            "group": "C"
+        },
+        {
+            "id": 12,
+            "name": "Scotland",
+            "shortName": "SCO",
+            "group": "C"
+        },
+        {
+            "id": 13,
+            "name": "United States",
+            "shortName": "USA",
+            "group": "D"
+        },
+        {
+            "id": 14,
+            "name": "Paraguay",
+            "shortName": "PAR",
+            "group": "D"
+        },
+        {
+            "id": 15,
+            "name": "Australia",
+            "shortName": "AUS",
+            "group": "D"
+        },
+        {
+            "id": 16,
+            "name": "Turkey",
+            "shortName": "TUR",
+            "group": "D"
+        },
+        {
+            "id": 17,
+            "name": "Germany",
+            "shortName": "GER",
+            "group": "E"
+        },
+        {
+            "id": 18,
+            "name": "Curacao",
+            "shortName": "CUW",
+            "group": "E"
+        },
+        {
+            "id": 19,
+            "name": "Ivory Coast",
+            "shortName": "CIV",
+            "group": "E"
+        },
+        {
+            "id": 20,
+            "name": "Ecuador",
+            "shortName": "ECU",
+            "group": "E"
+        },
+        {
+            "id": 21,
+            "name": "Netherlands",
+            "shortName": "NED",
+            "group": "F"
+        },
+        {
+            "id": 22,
+            "name": "Japan",
+            "shortName": "JPN",
+            "group": "F"
+        },
+        {
+            "id": 23,
+            "name": "Sweden",
+            "shortName": "SWE",
+            "group": "F"
+        },
+        {
+            "id": 24,
+            "name": "Tunisia",
+            "shortName": "TUN",
+            "group": "F"
+        },
+        {
+            "id": 25,
+            "name": "Belgium",
+            "shortName": "BEL",
+            "group": "G"
+        },
+        {
+            "id": 26,
+            "name": "Egypt",
+            "shortName": "EGY",
+            "group": "G"
+        },
+        {
+            "id": 27,
+            "name": "Iran",
+            "shortName": "IRN",
+            "group": "G"
+        },
+        {
+            "id": 28,
+            "name": "New Zealand",
+            "shortName": "NZL",
+            "group": "G"
+        },
+        {
+            "id": 29,
+            "name": "Spain",
+            "shortName": "ESP",
+            "group": "H"
+        },
+        {
+            "id": 30,
+            "name": "Cape Verde",
+            "shortName": "CPV",
+            "group": "H"
+        },
+        {
+            "id": 31,
+            "name": "Saudi Arabia",
+            "shortName": "KSA",
+            "group": "H"
+        },
+        {
+            "id": 32,
+            "name": "Uruguay",
+            "shortName": "URU",
+            "group": "H"
+        },
+        {
+            "id": 33,
+            "name": "France",
+            "shortName": "FRA",
+            "group": "I"
+        },
+        {
+            "id": 34,
+            "name": "Senegal",
+            "shortName": "SEN",
+            "group": "I"
+        },
+        {
+            "id": 35,
+            "name": "Iraq",
+            "shortName": "IRQ",
+            "group": "I"
+        },
+        {
+            "id": 36,
+            "name": "Norway",
+            "shortName": "NOR",
+            "group": "I"
+        },
+        {
+            "id": 37,
+            "name": "Argentina",
+            "shortName": "ARG",
+            "group": "J"
+        },
+        {
+            "id": 38,
+            "name": "Algeria",
+            "shortName": "ALG",
+            "group": "J"
+        },
+        {
+            "id": 39,
+            "name": "Austria",
+            "shortName": "AUT",
+            "group": "J"
+        },
+        {
+            "id": 40,
+            "name": "Jordan",
+            "shortName": "JOR",
+            "group": "J"
+        },
+        {
+            "id": 41,
+            "name": "Portugal",
+            "shortName": "POR",
+            "group": "K"
+        },
+        {
+            "id": 42,
+            "name": "DR Congo",
+            "shortName": "COD",
+            "group": "K"
+        },
+        {
+            "id": 43,
+            "name": "Uzbekistan",
+            "shortName": "UZB",
+            "group": "K"
+        },
+        {
+            "id": 44,
+            "name": "Colombia",
+            "shortName": "COL",
+            "group": "K"
+        },
+        {
+            "id": 45,
+            "name": "England",
+            "shortName": "ENG",
+            "group": "L"
+        },
+        {
+            "id": 46,
+            "name": "Croatia",
+            "shortName": "CRO",
+            "group": "L"
+        },
+        {
+            "id": 47,
+            "name": "Ghana",
+            "shortName": "GHA",
+            "group": "L"
+        },
+        {
+            "id": 48,
+            "name": "Panama",
+            "shortName": "PAN",
+            "group": "L"
         }
     ]
 }
