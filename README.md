@@ -22,6 +22,7 @@ TBD
 ---
 
 ## Featured: 2026 World Cup Monte Carlo Forecast
+*You can explore the full data analysis, model validation, and simulation steps in the [FIFA 2026 Predictor Notebook](./FIFA_2026_Predictor.ipynb).*
 
 Using an engineered Elo rating engine calibrated with tournament-stage importance metrics ($K$-factors), this project includes a predictive pipeline that simulates the final stages of the tournament over **200,000 randomized paths** to capture knockout variance. 
 
