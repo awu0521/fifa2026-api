@@ -1,2 +1,16 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node
 node_modules/
 .env
+
+# Environment secrets
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
